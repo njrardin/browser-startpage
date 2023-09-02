@@ -44,7 +44,7 @@ h1 > span {
 
 .content1 > ul {
     list-style: none;
-    padding: 10px;
+    padding: 0 0 10px 0;
     margin: 0;
 
     flex: 1;
@@ -54,7 +54,6 @@ h1 > span {
     grid-template-columns: auto auto;
 
     gap: 10%;
-
 }
 #links a > div {
     height: 100%;
@@ -91,7 +90,7 @@ h1 > span {
 
     padding: 20px;
 }
-.content2 img {
+.medusa {
     width: 15rem;
     height: 15rem;
 
@@ -107,7 +106,7 @@ h1 > span {
 #time {
     font-size: 5rem;
 
-    margin: .25rem;
+    margin: 0.25rem;
 }
 #date {
     font-size: 1.5rem;
