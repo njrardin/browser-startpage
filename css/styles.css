@@ -102,6 +102,8 @@ h1 > span {
 
 .datetime {
     margin-top: 5rem;
+
+    text-align: center;
 }
 #time {
     font-size: 5rem;
