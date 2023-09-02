@@ -91,13 +91,20 @@ h1 > span {
     padding: 20px;
 }
 .medusa {
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
 
     object-fit: cover;
 
     position: relative;
-    top: 70px;
+    top: 90px;
+}
+@media (max-width: 768px) {
+    .medusa {
+        width: 15rem;
+        height: 15rem;
+        top: 70px;
+    }
 }
 
 .datetime {
