@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "DM Mono";
+    src: url("/fonts/DMMono/DMMono-Medium.ttf");
+}
+
+* {
+    font-family: "DM Mono", monospace;
+}
